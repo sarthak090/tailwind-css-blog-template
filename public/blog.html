@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Blog Template</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="md:flex items-center justify-between     py-3 md:py-4 bg-gray-900  relative   text-gray-50 ">
+        <div class="flex justify-between min-w-min px-4">
+         <div class="flex text-3xl font-normal relative  items-center">
+             <svg
+               xmlns="http://www.w3.org/2000/svg"
+               class="h-10 w-10"
+               fill="none"
+               viewBox="0 0 24 24"
+               stroke="currentColor"
+             >
+               <path
+                 stroke-linecap="round"
+                 stroke-linejoin="round"
+                 stroke-width="1"
+                 d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"
+               />
+             </svg>
+             <a href="/">
+             Devloper Blog
+    
+            </a>
+           </div>
+           <svg xmlns="http://www.w3.org/2000/svg" id="menu-toggler" class="block cursor-pointer md:hidden self-center h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 6h16M4 12h8m-8 6h16" />
+             </svg>
+        </div>
+         <nav class=" md:mt-0 transition delay-300 ease-out md:px-4">             
+           <ul id="menu" class=" bg-gray-800 w-full py-4 md:py-0 md:mt-0 z-40 absolute   md:relative  md:bg-gray-900 mt-3 pl-4   flex flex-col hidden md:flex   md:flex-row m-0 p-0  text-lg md:items-center gap-8">
+               <li><a href="/blog" class="text-blue-400 font-bold ">Blog</a></li>
+               <li><a href="/about"  class="hover:text-blue-400 ">About Us</a></li>
+               <li><a href="/contact" class="hover:text-blue-400 ">Contact Us</a></li>
+               <li><a href="/privacy-policy" class="hover:text-blue-400 ">Privacy policy</a></li>
+           </ul>
+             
+         </nav>
+        
+    
+       
+     </header>
+     <div class="container mx-auto">
+         <div class="blog-wrapper wrapper-col-1  sm:wrapper-col-2 lg:wrapper-col-3 p-2">
+             <div class="blog-post w-full overflow-none border rounded-md">
+                <div class="max-w-2xl  h-auto  flex items-center relative ">
+                    <img src="img/aaa.png" class="w-full h-auto" alt="placeholder img"/>
+                    <div class="bg-blue-400  w-24 pt-1 cursor-pointer  h-8 text-gray-50 font-semibold text-center absolute top-0">
+                        Javascript
+                    </div>
+                </div>                
+                 <div class="p-4">
+                    <div class="flex gap-2 mb-2">
+                        <div class="w-10 h-10 rounded-full bg-gray-400 animate-pulse"></div>
+                        <div class="text-sm text-gray-500">
+                            <p>By <span class="text-gray-700 cursor-pointer">Sarthak Kaushik</span> </p>
+                            <h4>Updated over 2 weeks ago</h4>
+                        </div>
+                    </div>
+                     <h4 class=" text-3xl font-bold text-gray-700 cursor-pointer hover:text-gray-800">
+                        <a href="single.html">
+                            How To create for loop
+                        </a>
+                    </h4>
+                     <p class="text-md my-4 text-gray-500  font-sans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas soluta quia nulla, eligendi quidem rerum nihil voluptate veritatis necessitatibus, beatae deserunt sequi provident aspernatur aliquam eius! Totam optio magnam atque.
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ullam earum tenetur non sunt consequatur dicta illum voluptatibus laborum eligendi deserunt, neque aut delectus. Ipsam.</p>
+                     <a href="single.html" class="text-blue-500 mb-4">Read More →</a>
+                 </div>                
+             </div>
+             <div class="blog-post w-full overflow-none border rounded-md">
+                <div class="max-w-2xl  h-auto  flex items-center relative ">
+                    <img src="img/aaa.png" class="w-full h-auto" alt="placeholder img"/>
+                    <div class="bg-green-400  w-24 pt-1 cursor-pointer  h-8 text-gray-50 font-semibold text-center absolute top-0">
+                        Python
+                    </div>
+                </div>                
+                 <div class="p-4">
+                    <div class="flex gap-2 mb-2">
+                        <div class="w-10 h-10 rounded-full bg-gray-400 animate-pulse"></div>
+                        <div class="text-sm text-gray-500">
+                            <p>By <span class="text-gray-700 cursor-pointer">Sarthak Kaushik</span> </p>
+                            <h4>Updated over 2 weeks ago</h4>
+                        </div>
+                    </div>
+                     <h4 class=" text-3xl font-bold text-gray-700 cursor-pointer hover:text-gray-800">
+                        <a href="single.html">
+                            How To create for loop
+                        </a> 
+                        </h4>
+                     <p class="text-md my-4 text-gray-500  font-sans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas soluta quia nulla, eligendi quidem rerum nihil voluptate veritatis necessitatibus, beatae deserunt sequi provident aspernatur aliquam eius! Totam optio magnam atque.
+                       Lorem ipsum dolor sit amet. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium porro nisi tempora dolorum minima facilis dolore beatae a quia ullam!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ullam earum tenetur non sunt consequatur dicta illum voluptatibus laborum eligendi deserunt, neque aut delectus. Ipsam.</p>
+                     <a href="single.html" class="text-blue-500 mb-4">Read More →</a>
+                 </div>                
+             </div>
+             <div class="blog-post w-full overflow-none border rounded-md">
+                <div class="max-w-2xl  h-auto  flex items-center relative ">
+                    <img src="img/aaa.png" class="w-full h-auto" alt="placeholder img"/>
+                    <div class="bg-red-400  w-24 pt-1 cursor-pointer  h-8 text-gray-50 font-semibold text-center absolute top-0">
+                        CSS
+                    </div>
+                </div>                
+                 <div class="p-4">
+                    <div class="flex gap-2 mb-2">
+                        <div class="w-10 h-10 rounded-full bg-gray-400 animate-pulse"></div>
+                        <div class="text-sm text-gray-500">
+                            <p>By <span class="text-gray-700 cursor-pointer">Sarthak Kaushik</span> </p>
+                            <h4>Updated over 2 weeks ago</h4>
+                        </div>
+                    </div>
+                     <h4 class=" text-3xl font-bold text-gray-700 cursor-pointer hover:text-gray-800">
+                        <a href="single.html">                         
+                            How To create Custom Scrollbar
+                        </a>
+                    </h4>
+                     <p class="text-md my-4 text-gray-500  font-sans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas soluta quia nulla, eligendi quidem rerum nihil voluptate veritatis necessitatibus, beatae deserunt  optio magnam atque.
+                         Lorem ipsum  Ipsam.</p>
+                     <a href="single.html" class="text-blue-500 mb-4">Read More →</a>
+                 </div>                
+             </div>
+             <div class="blog-post w-full overflow-none border rounded-md">
+                <div class="max-w-2xl  h-auto  flex items-center relative ">
+                    <img src="img/aaa.png" class="w-full h-auto" alt="placeholder img"/>
+                    <div class="bg-indigo-400  w-24 pt-1 cursor-pointer  h-8 text-gray-50 font-semibold text-center absolute top-0">
+                        React Js
+                    </div>
+                </div>                
+                 <div class="p-4">
+                    <div class="flex gap-2 mb-2">
+                        <div class="w-10 h-10 rounded-full bg-gray-400 animate-pulse"></div>
+                        <div class="text-sm text-gray-500">
+                            <p>By <span class="text-gray-700 cursor-pointer">Sarthak Kaushik</span> </p>
+                            <h4>Updated over 2 weeks ago</h4>
+                        </div>
+                    </div>
+                     <h4 class=" text-3xl font-bold text-gray-700 cursor-pointer hover:text-gray-800">
+                        <a href="single.html"> 
+                        How To use useReducer Hook
+                    </a>
+                    </h4>
+                     <p class="text-md my-4 text-gray-500  font-sans">Possimus Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ullam eius quia fuga aspernatur  ullam earum tenetur non sunt consequatur dicta illum voluptatibus laborum eligendi deserunt, neque aut delectus. Ipsam.</p>
+                     <a href="single.html" class="text-blue-500 mb-4">Read More →</a>
+                 </div>                
+             </div>
+             <div class="blog-post w-full overflow-none border rounded-md">
+                <div class="max-w-2xl  h-auto  flex items-center relative ">
+                    <img src="img/aaa.png" class="w-full h-auto" alt="placeholder img"/>
+                    <div class="bg-pink-400  w-24 pt-1 cursor-pointer  h-8 text-gray-50 font-semibold text-center absolute top-0">
+                        Vue Js
+                    </div>
+                </div>                
+                 <div class="p-4">
+                    <div class="flex gap-2 mb-2">
+                        <div class="w-10 h-10 rounded-full bg-gray-400 animate-pulse"></div>
+                        <div class="text-sm text-gray-500">
+                            <p>By <span class="text-gray-700 cursor-pointer">Sarthak Kaushik</span> </p>
+                            <h4>Updated over 2 weeks ago</h4>
+                        </div>
+                    </div>
+                     <h4 class=" text-3xl font-bold text-gray-700 cursor-pointer hover:text-gray-800">
+                        <a href="single.html">
+                            Routing in Vue js
+                        </a>  
+                       </h4>
+                     <p class="text-md my-4 text-gray-500  font-sans"> Possimus ullam earum tenetur non sunt consequatur dicta illum voluptatibus laborum eligendi deserunt, neque aut delectus. Ipsam.</p>
+                     <a href="single.html" class="text-blue-500 mb-4">Read More →</a>
+                 </div>                
+             </div>
+             <div class="blog-post w-full overflow-none border rounded-md">
+                <div class="max-w-2xl  h-auto  flex items-center relative ">
+                    <img src="img/aaa.png" class="w-full h-auto" alt="placeholder img"/>
+                    <div class="bg-blue-400  w-24 pt-1 cursor-pointer  h-8 text-gray-50 font-semibold text-center absolute top-0">
+                        Javascript
+                    </div>
+                </div>                
+                 <div class="p-4">
+                    <div class="flex gap-2 mb-2">
+                        <div class="w-10 h-10 rounded-full bg-gray-400 animate-pulse"></div>
+                        <div class="text-sm text-gray-500">
+                            <p>By <span class="text-gray-700 cursor-pointer">Sarthak Kaushik</span> </p>
+                            <h4>Updated over 2 weeks ago</h4>
+                        </div>
+                    </div>
+                     <h4 class=" text-3xl font-bold text-gray-700 cursor-pointer hover:text-gray-800">
+                        <a href="single.html">
+                            All About reduce method
+                        </a> 
+                       </h4>
+                     <p class="text-md my-4 text-gray-500  font-sans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas soluta quia nulla, eligendi quidem rerum nihil voluptate veritatis necessitatibus, beatae deserunt sequi provident aspernatur aliquam eius! Totam optio magnam atque.
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ullam earum tenetur non sunt consequatur dicta illum voluptatibus laborum eligendi deserunt, neque aut delectus. Ipsam.</p>
+                     <a href="single.html" class="text-blue-500 mb-4">Read More →</a>
+                 </div>                
+             </div>
+
+             
+           
+
+             
+
+         </div>
+         <div id="pagination" class="mb-8 mx-auto">
+             <div class="flex w-full justify-center gap-2">
+                 <div class="w-12 h-12 text-lg text-gray-200 hover:text-gray-200 text-center font-bold flex items-center justify-center bg-blue-500 rounded-full hover:bg-blue-500  cursor-pointer">1</div>
+                 <div class="w-12 h-12 text-lg text-gray-700  hover:text-gray-200 text-center font-bold flex items-center justify-center bg-blue-300 rounded-full hover:bg-blue-500  cursor-pointer">2</div>
+                 <div class="w-12 h-12 text-lg text-gray-700 hover:text-gray-200 text-center font-bold flex items-center justify-center bg-blue-300 rounded-full hover:bg-blue-500  cursor-pointer">3</div>
+                 <div class="w-12 h-12 text-lg text-gray-700 hover:text-gray-200 text-center font-bold flex items-center justify-center bg-blue-300 rounded-full hover:bg-blue-500  cursor-pointer">4</div>
+             </div>
+         </div>
+     </div>
+    
+      
+     <script src="app.js"></script>
+    </body>
+</html>

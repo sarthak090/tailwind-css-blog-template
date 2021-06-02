@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  @variants responsive {
+    .blog-wrapper {
+      max-width: 1200px;
+      width: 100%;
+      margin: 20px auto;
+      column-gap: 40px;
+    }
+    .blog-post {
+      width: 100%;
+      margin: 0 0 20px;
+
+      overflow: hidden;
+      break-inside: avoid;
+    }
+    .blog-post img {
+      width: 100%;
+    }
+    .wrapper-col-3 {
+      columns: 3;
+    }
+    .wrapper-col-2 {
+      columns: 2;
+    }
+    .wrapper-col-1 {
+      columns: 1;
+    }
+  }
+}
